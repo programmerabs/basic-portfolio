@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+
+}
+
+
+.section-title{
+	position:relative;
+	text-align:center;
+	text-transform:uppercase;
+	margin-bottom:30px;
+}
+.section-title:after{
+	content:'';
+	position:absolute;
+	bottom:-7px;
+	left:50%;
+	transform:translateX(-50%);
+	background:#03a9f4;
+	width:120px;
+	height:3px;
+}
+
+/*==============
+HEADER STYLE
+==============*/
+header{
+	background:#fff;
+	box-shadow:3px 5px 7px #ddd;
+	overflow:hidden;
+	
+}
+header .logo{
+	width:100%;
+	padding:10px 20px;
+}
+header .logo img{
+	width:120px;
+	height:60px;
+}
+header  ul {
+	list-style:none;
+}
+header ul li{
+	float:left;
+}
+header ul li a{
+	text-decoration:none;
+	display:block;
+	padding:28px 20px;
+	font-size:23px;
+	color:#03a9f4;
+	
+}
+header ul li a:hover{
+	transition:0.3s ease;
+	background:#03a9f4;
+	color:#fff;
+}
+
+
+/*==============
+HERO AREA STYLE
+==============*/
+#hero-area{
+	padding:185px 20px;
+	background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4568dc, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.hero-text{
+	width:100%;
+}
+.hero-text h2{
+	font-size:55px;
+	font-weight:800;
+	color:#fff;
+	
+}
+.hero-text p{
+	color:#fff;
+	font-weight:300;
+	font-style:italic;
+	margin:22px 0px;
+}
+.hero-text .hero-btn{
+	border:3px solid transparent;
+	font-size:20px;
+	padding:15px 20px;
+	font-weight:500;
+	border-radius:25px;
+	background-color:#fff;
+	color:#03a9f4;
+	cursor:pointer;
+	text-transform:uppercase;
+	
+}
+.hero-text .hero-btn:hover{
+	border:3px solid black;
+	color:black;
+	transition:0.5s ease;
+}
+
+
+
+/*==============
+SKILL AREA STYLE
+==============*/
+#skill{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#skill .about-area{
+	padding:15px;
+	margin-right:30px;
+}
+#skill .s-title{
+	position:relative;
+	text-align:center;
+	text-transform:uppercase;
+	margin-bottom:30px;
+}
+#skill .s-title:after{
+	content:'';
+	position:absolute;
+	bottom:-7px;
+	left:50%;
+	transform:translateX(-50%);
+	background:#03a9f4;
+	width:120px;
+	height:3px;
+}
+#skill .about-area .about-content{
+	font-weight:400;
+	line-height:25px;
+	text-align:center;
+}
+#skill .skill-area{
+	padding:15px;
+	margin-left:30px;
+}
+.skill-content .skill-bg{
+	background:#b7b7b7;
+	width:100%;
+	border-radius:25px;
+}
+.skill-content .skill-bar{
+	background:#03a9f4;
+	padding:1px 15px;
+	border-radius:25px;
+	color:#fff;
+	text-align:right;
+}
+#skill .skill-name{
+	margin:10px;
+}
+
+
+
+#experience{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url('https://specials-images.forbesimg.com/imageserve/5d9182dc6c7c8f000990b672/960x0.jpg?fit=scale');
+	padding:120px;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#experience .ex-con{
+	color:#fff;
+	text-align:center;
+}
+#experience .ex-con .count{
+	font-size:55px;
+	font-weight:800;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+}
+#experience .ex-con i{
+	font-size:50px;
+}
+#experience .ex-name{
+	font-size:35px;
+}
+
+
+#portfolio{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#portfolio img{
+	width:100%;
+}
+.s-portfolio{
+	margin:20px;
+}
+
+#contact{
+	background:#efefef;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.contact-form{
+	margin-right:40px;
+	padding:15px;
+}
+.contact-form input,textarea{
+	width:100%;
+	padding:15px;
+	margin-bottom:15px;
+	border-radius:8px;
+	border:none;
+	font-size:20px;
+}
+.contact-form textarea{
+	height:90px;
+}
+.contact-form input[type="submit"]{
+	background:#03a9f4;
+	color:#fff;
+	cursor:pointer;
+}
+.contact-info{
+	margin-right:40px;
+	padding:15px;
+}
+.contact-info .s-info{
+	background-color:#fff;
+	margin-bottom:20px;
+	padding:10px;
+}
+.contact-info .s-info span{
+	margin-left:20px;
+	color:#03a9f4;
+	font-weight:700;
+	letter-spacing:3px;
+}
+.contact-info .social{
+	margin-top:30px;
+}
+.contact-info .social  a{
+	text-decoration:none;
+	
+}
+.contact-info .social  a i{
+	background:#fff;
+	padding:15px;
+	margin-right:10px;
+	font-size:25px;
+	border-radius:10px;
+}
+.contact-info .social  a i:hover{
+	transition:all 0.3s ease;
+	cursor:pointer;
+	background:#03a9f4;
+	color:#fff;
+}
+
+footer{
+	background-color:#272424;
+	padding:30px;
+	text-align:center;
+	color:#fff;
+}
